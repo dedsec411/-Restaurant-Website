@@ -1,0 +1,179 @@
+/* General Styling */
+body {
+  font-family: fantasy;sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  background:linear-gradient(90deg,#000000,#330000);
+}
+header {
+    background:linear-gradient(90deg,#000000,#330000);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header .logo img {
+  max-width: 400px;
+  max-height: 200px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: inherit;
+  color: white;
+  padding: 8px 15px;
+  background-color: #800000;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+nav ul li a:hover {
+  background-color: #cc0000;z
+}
+
+/* Hero Section with Background and Text Alignment */
+.hero {
+  text-align: left; /* Align text to the left */
+  padding: 300px 20px;
+  background: url('/home/dedsec411/Restaurant website/images/pexels-chanwalrus-958545.jpg') no-repeat center center/cover;
+  position: relative; /* Allows positioning of inner elements */
+}
+.hero h2 {
+  font-size: 3em;
+  color: #fff;
+
+  padding: 10px 20px;
+  border-radius: 5px;
+  display: inline-block;
+  margin: 0;
+}
+
+.hero p {
+  font-size: 3em;
+  margin: 20px 0;
+  color: #fff;
+  padding: 10px;
+  text-shadow: h-shadow v-shadow blur-radius color;
+  max-width: 500px; /* Limit width for readability */
+}
+
+.hero .btn {
+  background-color: #800000;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.hero .btn:hover {
+  background-color: #cc0000;
+}
+
+/* Featured Deals */
+.Specials {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 5em;
+  color: #fff;
+  font-family: serif;
+  font-weight: bolder;
+  text-align: center;
+  padding: 10px 20px;
+  border-radius: 5px;
+  display: inline-block;
+  margin: 0;
+}
+.hero h2 {
+  font-size: 4em;
+  color: #fff;
+  font-family: serif;
+  font-weight: bolder;
+  text-align: center;
+  padding: 10px 20px;
+  border-radius: 5px;
+  display: inline-block;
+  margin: 0;
+}
+
+.Specials .deals {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.Specials .deal {
+  background:linear-gradient(350deg,#0343DF,#330000);
+  padding: 10px;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 1.2em;
+  font-family: serif;
+  font-synthesis-style: revert;
+  font-weight: bolder;
+}
+
+.Specials .deal img {
+  max-width: 600px;
+  max-height: 600px;
+  border-radius: 20px;
+}
+.Menu {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.Menu .item {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.Menu .item {
+  background:linear-gradient(350deg,#0343DF,#330000);
+  padding: 10px;
+  border-radius: 20px;
+  text-align: left;
+  font-size: 1.2em;
+  font-family: serif;
+  font-synthesis-style: revert;
+  font-weight: bolder;
+}
+
+.Menu .item img {
+  max-width: 300px;
+  max-height: 200px;
+  border-radius: 20px;
+}
+.Menu h1 {
+  font-size: 3em;
+  color: #fff;
+  font-family: serif;
+  font-weight: bolder;
+
+  padding: 10px 20px;
+  border-radius: 5px;
+  display: inline-block;
+  margin: 0;
+}
+.Contact {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+
